@@ -21,9 +21,11 @@ Things To Add
    * tensorflow
    * theano
  * command to backup files before they are modified
- * put a command in the README which downloads and runs this all automatically
- * add a keepalive command to the ssh config so connections don't time out
+ * a command in the README which downloads and runs this all automatically
+ * a keepalive command to the ssh config so connections don't time out
    * add to `ServerAliveInterval 60` /etc/ssh/ssh_config
+ * permanent ssh key authentication
+   * `http://stackoverflow.com/a/28562679/2230446`
 
 Things To Do
 ------------
