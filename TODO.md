@@ -30,3 +30,6 @@ Things To Do
  * make sure this works as expected by running it on a fresh VM
  * make sure running the script twice isn't different from running it once
  * make sure things simple things are aliases, medium complexity things are functions and very complex things are scripts
+ * make sure everything is well commented
+ * generalize the format of the script with variables and such so other people can easily use it too
+
