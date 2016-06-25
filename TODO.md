@@ -22,6 +22,8 @@ Things To Add
    * theano
  * command to backup files before they are modified
  * put a command in the README which downloads and runs this all automatically
+ * add a keepalive command to the ssh config so connections don't time out
+   * add to `ServerAliveInterval 60` /etc/ssh/ssh_config
 
 Things To Do
 ------------
