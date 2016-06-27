@@ -14,6 +14,7 @@ Files To Sync
 
 Things To Add
 -------------
+ * commands to copy the above files
  * sublime text keybinds, settings, package control
  * a command which sets the number of desktops to 4
  * rsub: `http://log.liminastudio.com/writing/tutorials/sublime-tunnel-of-love-how-to-edit-remote-files-with-sublime-text-via-an-ssh-tunnel`
