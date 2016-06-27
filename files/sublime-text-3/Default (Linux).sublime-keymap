@@ -1,0 +1,6 @@
+// add new items to the top of the list
+[ 
+	{ "keys": ["ctrl+t"], "command": "new_file" }, 
+	{ "keys": ["ctrl+shift+x"], "command": "toggle_full_screen" },
+	{ "keys": ["ctrl+shift+d"], "command": "find_all_under" }
+]
