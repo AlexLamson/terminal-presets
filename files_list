@@ -1,0 +1,16 @@
+FILE: ~/.tmux.conf
+TO RELOAD: tmux source-file ~/.tmux.conf
+
+IN DIRECTORY: /home/alex/.config/sublime-text-3/Packages/User
+FILE: /home/alex/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap
+FILE: /home/alex/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+TO RELOAD: it happens automatically (I think)
+NOTE: sublime/ directory has some useful files which could use some copying
+
+FILE: /etc/ssh/ssh_config
+TO RELOAD: sudo service sshd restart
+
+FILE: ~/.bash_aliases
+FILE: ~/.bashrc
+TO RELOAD: source ~/.bashrc
+
