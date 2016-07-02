@@ -6,7 +6,7 @@ alias la='ls -A'
 alias ll='ls -lah --group-directories-first'
 alias l.='ls -d .* --color=auto'
 
-alias apt-get='apt-get -y'
+alias apt-get='apt -y'
 
 alias clip='xclip -selection c'
 
