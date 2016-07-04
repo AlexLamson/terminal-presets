@@ -11,7 +11,7 @@
 
 # Backup files being modified
 echo "Backing up config files..."
-cpalways() { cp $1 $2 2>/dev/null || : }
+cpalways() { cp $1 $2 2>/dev/null || : ; return 0 ; }
 cpalways ~/.bash_aliases ~/.bash_aliases~
 cpalways ~/.bashrc ~/.bashrc~
 cpalways ~/.tmux.conf ~/.tmux.conf~
