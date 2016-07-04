@@ -59,6 +59,10 @@ git config --global user.email "alex.lamson@gmail.com"
 git config --global push.default simple
 
 
+# Just in case it somehow got this far without updates
+sudo apt-get -qq update
+
+
 # Update pip
 sudo apt-get -y -qq install python-pip
 sudo apt-get -y -qq install python3-pip
