@@ -15,7 +15,7 @@ cpalways() { cp $1 $2 2>/dev/null || : }
 cpalways ~/.bash_aliases ~/.bash_aliases~
 cpalways ~/.bashrc ~/.bashrc~
 cpalways ~/.tmux.conf ~/.tmux.conf~
-cpalways ~/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap ~/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap~
+cpalways ~/.config/sublime-text-3/Packages/User/Default\ \(Linux\).sublime-keymap ~/.config/sublime-text-3/Packages/User/Default\ \(Linux\).sublime-keymap~
 cpalways ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings~
 cpalways /etc/ssh/ssh_config /etc/ssh/ssh_config~
 
