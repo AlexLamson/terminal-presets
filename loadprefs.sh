@@ -60,6 +60,8 @@ git config --global push.default simple
 
 
 # Update pip
+sudo apt-get -y -qq install python-pip
+sudo apt-get -y -qq install python3-pip
 sudo pip install --upgrade setuptools pip
 sudo pip3 install --upgrade pip
 
