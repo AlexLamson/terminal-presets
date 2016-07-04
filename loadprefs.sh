@@ -82,10 +82,10 @@ sudo apt-get -y -qq install xclip
 sudo apt-get -y -qq install colordiff
 
 # Install audio packages
-sudo apt-get -y -qq install amixer festival
+sudo apt-get -y -qq install festival
 
 # Install some useful packages
-sudo apt-get -y -qq install build-essential sox  git curl xbitmaps xmessage
+sudo apt-get -y -qq install build-essential sox  git curl xbitmaps
 sudo -H pip install e speedtest-cli when-changed
 
 
