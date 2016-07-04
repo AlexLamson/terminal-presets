@@ -9,8 +9,13 @@
 
 
 # Backup files being modified
-cp ~/.bashrc ~/.bashrc~
+echo "Backing up config files..."
 cp ~/.bash_aliases ~/.bash_aliases~
+cp ~/.bashrc ~/.bashrc~
+cp ~/.tmux.conf ~/.tmux.conf~
+cp ~/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap ~/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap~
+cp ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings~
+cp /etc/ssh/ssh_config /etc/ssh/ssh_config~
 
 # Shorten the bash prompt
 echo "Please enter name of new computer: "
