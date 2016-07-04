@@ -34,6 +34,20 @@ unset computername
 source ~/.bashrc
 
 
+# Mount the shared directory and put a shortcut in home directory
+read -r -p "Would you like to link the shared directory? [y/N] " response
+response=${response,,}    # tolower
+if [[ $response =~ ^(yes|y)$ ]]
+then
+    echo "linking shared directory"
+    sudo mkdir /media/share
+    sudo mount -t vboxsf share /media/share
+    ln -s /media/share ~/share
+else
+    echo "not linking shared directory"
+fi
+
+
 # Copy over and reload ssh_config
 sudo chmod 600 ~/.ssh/config
 sudo cp files/ssh/ssh_config /etc/ssh/ssh_config
@@ -44,13 +58,6 @@ sudo service sshd restart
 sudo apt-get -y -qq install tmux
 sudo cp files/tmux/tmux.conf ~/.tmux.conf
 tmux source-file ~/.tmux.conf
-
-
-
-# Mount the shared directory and put a shortcut in home directory
-sudo mkdir /media/share
-sudo mount -t vboxsf share /media/share
-ln -s /media/share ~/share
 
 
 # Set up github info
