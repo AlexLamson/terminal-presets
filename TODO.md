@@ -27,6 +27,8 @@ Things To Add
    * add to `ServerAliveInterval 60` /etc/ssh/ssh_config
  * permanent ssh key authentication
    * `http://stackoverflow.com/a/28562679/2230446`
+ * keras
+ * torch
 
 Things To Do
 ------------
