@@ -97,7 +97,8 @@ sudo -H pip install e speedtest-cli when-changed
 
 
 # Install useful python libraries
-sudo apt-get -t -qq install build-essential python-dev python-numpy python-setuptools python-scipy libatlas-dev libatlas3-base
+sudo apt-get -y -qq install python-bs4
+sudo apt-get -y -qq install build-essential python-dev python-numpy python-setuptools python-scipy libatlas-dev libatlas3-base
 sudo apt-get -y -qq install python-pyqt5 python3-pyqt5
 sudo apt-get -y -qq build-dep python-matplotlib && sudo apt-get -y -qq install python-matplotlib
 sudo apt-get -y -qq install python-numpy python-scipy scikit-learn
