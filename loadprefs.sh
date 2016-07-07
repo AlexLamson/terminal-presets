@@ -42,7 +42,7 @@ then
     echo "linking shared directory"
     sudo mkdir /media/share
     sudo mount -t vboxsf share /media/share
-    ln -s /media/share ~/share
+    sudo ln -s /media/share ~/share
 else
     echo "not linking shared directory"
 fi
