@@ -34,6 +34,8 @@ Things To Add
 
 Things To Do
 ------------
+ * figure what was causing the issue where the shared directory wasn't mounting
+   * maybe the mount command needs to be included in the .bashrc ?
  * make sure this works as expected by running it on a fresh VM
  * make sure running the script twice isn't different from running it once
  * make sure things simple things are aliases, medium complexity things are functions and very complex things are scripts
