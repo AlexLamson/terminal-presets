@@ -15,6 +15,7 @@ Files To Sync
 Things To Add
 -------------
  * scala
+ * repeat the same settings as apt-get for apt
  * pressing enter when asked for a new name should result in keeping the current name
  * commands to copy the above files
  * sublime text keybinds, settings, package control
