@@ -122,3 +122,14 @@ export LD_LIBRARY_PATH=${CUDA_HOME}/lib64
 PATH=${CUDA_HOME}/bin:${PATH} 
 export PATH
 
+function swap()         
+{
+  if [ $# -ne 2 ]; then
+    echo "Usage: swap file1 file2"
+  else
+    local TMPFILE=$(mktemp)
+    mv "$1" $TMPFILE
+    mv "$2" "$1"
+    mv $TMPFILE "$2"
+  fi
+}
