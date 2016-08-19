@@ -73,8 +73,8 @@ sudo apt-get -qq update
 # Update pip
 sudo apt-get -y -qq install python-pip
 sudo apt-get -y -qq install python3-pip
-sudo pip install --upgrade setuptools pip
-sudo pip3 install --upgrade pip
+sudo -H pip install --upgrade setuptools pip
+sudo -H pip3 install --upgrade pip
 
 # Install sublime text
 sudo add-apt-repository -y ppa:webupd8team/sublime-text-3 && sudo apt-get -y -qq update && sudo apt-get -y -qq install sublime-text-installer
