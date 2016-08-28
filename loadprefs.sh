@@ -102,7 +102,7 @@ sudo apt-get -y -qq install build-essential python-dev python-numpy python-setup
 sudo apt-get -y -qq install python-pyqt5 python3-pyqt5
 sudo apt-get -y -qq build-dep python-matplotlib && sudo apt-get -y -qq install python-matplotlib
 sudo apt-get -y -qq install python-numpy python-scipy
-sudo -H pip -U install scikit-learn
+sudo -H pip install -U scikit-learn
 
 # Install pybrain
 sudo apt-get -y -qq install ipython ipython-notebook python-pandas python-sympy python-nose
