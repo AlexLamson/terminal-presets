@@ -92,7 +92,7 @@ sudo apt-get -y -qq install colordiff
 sudo apt-get -y -qq install festival
 
 # Install some useful packages
-sudo apt-get -y -qq install sox git curl xbitmaps
+sudo apt-get -y -qq install sox git curl xbitmaps tree
 sudo -H pip install e speedtest-cli when-changed
 
 
