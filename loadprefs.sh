@@ -46,6 +46,7 @@ then
 else
     echo "not linking shared directory"
 fi
+unset response
 
 
 # Copy over and reload ssh_config
